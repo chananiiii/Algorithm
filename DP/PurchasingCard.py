@@ -16,4 +16,5 @@ for i in range(1, N + 1) :
         if array[j] < array[j-i] + array[i] :
             array[j] = array[j-i] + array[i]
 
+
 print(array[N])
