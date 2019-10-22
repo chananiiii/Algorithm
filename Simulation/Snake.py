@@ -9,10 +9,11 @@ length = int(sys.stdin.readline())
 array = [[0] * (length + 2) for _ in range(length + 2)]
 queue = []
 
+
 def add(direction, y, x) :
     if direction % 4 == 0 :
         return [y, x + 1]
-    elif direction % 4 == 1 :
+    elif directioRotatingArray4.pyn % 4 == 1 :
         return [y + 1, x]
     elif direction % 4 == 2 :
         return [y, x - 1]
