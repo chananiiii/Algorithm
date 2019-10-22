@@ -8,6 +8,7 @@ second = 0
 length = int(sys.stdin.readline())
 array = [[0] * (length + 2) for _ in range(length + 2)]
 queue = []
+#수정되었습니다222222
 
 def add(direction, y, x) :
     if direction % 4 == 0 :
