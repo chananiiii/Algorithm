@@ -9,7 +9,7 @@ length = int(sys.stdin.readline())
 array = [[0] * (length + 2) for _ in range(length + 2)]
 queue = []
 <<<<<<< HEAD
-#수정되었습니다222222
+#수정되었습니다333333
 =======
 #수정되었습니다.
 >>>>>>> tmp
